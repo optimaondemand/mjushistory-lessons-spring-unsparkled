@@ -1,0 +1,595 @@
+<!-- TEACHER-FACING: Lesson benchmarks (CPALMS 2100010)
+     SS.8.A.5.3: Explain major domestic and international economic, military, political, and socio-cultural events of Abraham Lincoln's presidency.
+     SS.8.A.5.6: Compare significant Civil War battles and events and their effects on civilian populations.
+     SS.8.A.5.1: Explain the causes, course, and consequence of the Civil War (e.g., sectionalism, slavery, states' rights, balance of power in the Senate).
+     SS.8.A.1.6: Compare interpretations of key events and issues throughout American History.
+     SS.8.CG.3.1: Trace the foundational ideals and principles related to the U.S. government expressed in primary sources from the colonial period to Reconstruction.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Grant and Sherman Break the Confederacy</title>
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; padding: 0; font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #1a2340; background: #F4F6FA; }
+
+.oa-header { background: #0E1C42; border-bottom: 5px solid #55C8E8; padding: 22px 34px; }
+.oa-header .brand { display: flex; align-items: center; gap: 14px; margin-bottom: 10px; }
+.oa-header .brand-dot { width: 52px; height: 52px; border-radius: 50%; background: #fff; display: flex; align-items: center; justify-content: center; color: #0E1C42; font-size: 24px; flex-shrink: 0; }
+.oa-header .brand-name { font-size: 24px; color: #fff; line-height: 1.2; }
+.oa-header .brand-tag { font-size: 12px; color: #55c8e8; }
+.oa-header .course-name { font-size: 30px; color: #fff; margin-top: 6px; }
+.oa-header .breadcrumb { font-size: 15px; color: #55c8e8; margin-top: 2px; }
+
+.oa-footer { background: #0E1C42; border-top: 3px solid #55C8E8; padding: 18px 34px; text-align: center; }
+.oa-footer .line1 { font-size: 15px; color: #fff; }
+.oa-footer .line1 .brand { color: #55c8e8; }
+.oa-footer .line2 { font-size: 12px; color: rgba(255,255,255,0.65); margin-top: 3px; }
+.oa-footer .line3 { font-size: 11px; color: rgba(255,255,255,0.4); margin-top: 3px; }
+
+.meta-strip { background: #fff; border-bottom: 2px solid #D0D9E8; display: flex; flex-wrap: wrap; }
+.meta-cell { flex: 1; min-width: 150px; padding: 12px 18px; border-right: 1px solid #D0D9E8; }
+.meta-cell:last-child { border-right: none; }
+.meta-label { font-size: 11px; color: #6b7a99; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.3px; }
+.meta-value { font-size: 17px; color: #0e1c42; }
+
+.page-wrap { max-width: 900px; margin: 0 auto; padding: 24px 28px 32px; }
+
+.title-strip { background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 18px 22px; margin-bottom: 20px; }
+.title-strip .kicker { font-size: 11px; color: #0e1c42; margin-bottom: 6px; text-transform: uppercase; }
+.title-strip .title { font-size: 24px; color: #0e1c42; margin-bottom: 4px; }
+.title-strip .subtitle { font-size: 14px; color: #666; }
+
+.card { background: #fff; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px; }
+.card-gold-top { border-top: 3px solid #C7922C; }
+.card-navy-top { border-top: 3px solid #0E1C42; }
+.card-kicker { font-size: 11px; color: #c7922c; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.3px; }
+.card-body { font-size: 17px; color: #1a2340; line-height: 1.65; }
+.card h3 { font-size: 19px; color: #0e1c42; margin: 14px 0 8px 0; }
+.card p { font-size: 17px; color: #1a2340; line-height: 1.65; margin: 0 0 10px 0; }
+
+.num-row { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; }
+.num-circle { min-width: 28px; height: 28px; border-radius: 50%; background: #C7922C; color: #fff; font-size: 14px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.num-circle.navy { background: #0E1C42; }
+.num-text { font-size: 17px; color: #1a2340; line-height: 1.6; }
+
+.callout-help { background: #E8F6FB; border-left: 5px solid #2196D0; border-top: 3px solid #55C8E8; border-radius: 6px; padding: 16px 20px; margin: 16px 0; }
+.callout-kicker-help { font-size: 11px; color: #1B6A94; margin-bottom: 8px; text-transform: uppercase; }
+.callout-glossary { background: #EEF1F8; border-left: 5px solid #0E1C42; border-top: 3px solid #55C8E8; border-radius: 6px; padding: 16px 20px; margin: 16px 0; }
+.callout-kicker-glossary { font-size: 11px; color: #0E1C42; margin-bottom: 8px; text-transform: uppercase; }
+.callout-foreign { background: #EEF1F8; border-left: 5px solid #C7922C; border-top: 3px solid #C7922C; border-radius: 6px; padding: 16px 20px; margin: 16px 0; }
+.callout-kicker-foreign { font-size: 11px; color: #8a6216; margin-bottom: 8px; text-transform: uppercase; }
+.term-audio { background: transparent; border: 1px solid #C7922C; color: #C7922C; border-radius: 50%; width: 22px; height: 22px; font-size: 11px; cursor: pointer; margin-left: 4px; padding: 0; line-height: 1; }
+.term-audio:hover { background: #FDF3E3; }
+
+.term { border-bottom: 1.5px dotted #C7922C; color: #0E1C42; cursor: help; }
+/* ===== Optima widgets (inline, ungraded practice) ===== */
+.optima-widget { background: linear-gradient(135deg, #E8F6FB 0%, #F4F9FC 100%); border: 1px solid #C5DCE5; border-left: 5px solid #2196D0; border-radius: 8px; padding: 18px 22px; margin: 18px 0; }
+.widget-kicker { font-size: 11px; color: #1B6A94; margin-bottom: 10px; letter-spacing: 0.4px; text-transform: uppercase; }
+.widget-question { font-size: 16px; color: #0E1C42; margin-bottom: 14px; line-height: 1.55; }
+.widget-row { background: #FFFFFF; border: 1px solid #D0D9E8; border-radius: 6px; padding: 12px 14px; margin-bottom: 10px; }
+.widget-row-prompt { font-size: 15px; color: #0E1C42; margin-bottom: 8px; line-height: 1.5; font-style: italic; }
+.widget-options { display: flex; flex-wrap: wrap; gap: 8px; }
+.widget-options button { background: #FFFFFF; border: 1.5px solid #D0D9E8; border-radius: 8px; padding: 8px 14px; font-size: 14px; color: #0E1C42; cursor: pointer; transition: all 0.15s; font-family: inherit; }
+.widget-options button:hover { background: #F4F6FA; border-color: #55C8E8; }
+.widget-options button.selected { background: #0E1C42; color: #FFFFFF; border-color: #0E1C42; }
+.widget-options button.correct { background: #D8F0DD; border-color: #2A9D5C; color: #1A6B3D; }
+.widget-options button.incorrect { background: #FDECEC; border-color: #C0392B; color: #8A1F16; }
+.widget-feedback { background: #FFFFFF; border-left: 3px solid #C7922C; padding: 10px 14px; font-size: 15px; color: #1a2340; line-height: 1.55; margin: 10px 0; display: none; border-radius: 4px; }
+.widget-feedback.show { display: block; }
+.row-feedback { padding: 8px 12px; margin-top: 8px; font-size: 14px; border-radius: 4px; line-height: 1.5; }
+.row-feedback.correct { background: #D8F0DD; border-left: 3px solid #2A9D5C; color: #1A6B3D; }
+.row-feedback.incorrect { background: #FDECEC; border-left: 3px solid #C0392B; color: #8A1F16; }
+.widget-reset { background: transparent; border: 1px solid #C7922C; color: #8a6216; border-radius: 6px; padding: 6px 12px; font-size: 12px; cursor: pointer; font-family: inherit; margin-top: 6px; }
+.widget-reset:hover { background: #FDF3E3; }
+.ow-scale .widget-options button { flex: 1 1 110px; text-align: center; }
+.ow-flip { background: #FFFFFF; border: 1px solid #D0D9E8; border-radius: 8px; padding: 14px 18px; cursor: pointer; text-align: center; margin-bottom: 10px; }
+.ow-flip .ow-flip-back { display: none; color: #1a2340; font-size: 15px; line-height: 1.55; }
+.ow-flip .ow-flip-front { font-size: 17px; color: #0E1C42; }
+.ow-flip.flipped .ow-flip-front { display: none; }
+.ow-flip.flipped .ow-flip-back { display: block; }
+.sort-bins { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 4px; }
+.sort-bin { flex: 1 1 140px; background: #FFFFFF; border: 1.5px dashed #A9BBD1; border-radius: 8px; padding: 8px 10px; min-height: 56px; }
+.sort-bin h4 { margin: 0 0 6px 0; font-size: 13px; color: #1B6A94; }
+.sort-chip { font-size: 13px; background: #D8F0DD; border: 1px solid #2A9D5C; color: #1A6B3D; border-radius: 6px; padding: 4px 8px; margin: 4px 0; line-height: 1.4; }
+.sort-tally { font-size: 12px; color: #6b7a99; margin: 4px 0 2px; }
+.order-pool { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.order-pool button { background: #FFFFFF; border: 1.5px solid #D0D9E8; border-radius: 8px; padding: 8px 12px; font-size: 14px; color: #0E1C42; cursor: pointer; font-family: inherit; text-align: left; line-height: 1.4; }
+.order-pool button:hover { background: #F4F6FA; border-color: #55C8E8; }
+.order-pool button.nope { background: #FDECEC; border-color: #C0392B; color: #8A1F16; }
+.order-list { margin: 0 0 8px 0; padding: 0; list-style: none; }
+.order-list li { background: #D8F0DD; border: 1px solid #2A9D5C; color: #1A6B3D; border-radius: 6px; padding: 7px 10px; margin-bottom: 6px; font-size: 14px; line-height: 1.4; }
+.order-list li b { margin-right: 6px; }
+details.ow-reveal { background: #FFFFFF; border: 1px solid #D0D9E8; border-radius: 6px; padding: 10px 14px; margin-bottom: 8px; }
+details.ow-reveal summary { cursor: pointer; font-size: 15px; color: #0E1C42; line-height: 1.5; }
+details.ow-reveal .reveal-body { margin-top: 10px; padding: 10px 12px; background: #FDF3E3; border-left: 3px solid #C7922C; border-radius: 4px; font-size: 15px; line-height: 1.55; color: #1a2340; }
+
+</style>
+</head>
+<body data-lesson-id="6.7" data-week="34" data-widgets="5">
+
+<div class="oa-header">
+  <div class="brand"><div class="brand-dot"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width: 40px; height: 32px; object-fit: contain;" /></div><div><div class="brand-name">Optima Academy Online</div><div class="brand-tag">An Education Experience Company</div></div></div>
+  <div class="course-name">MJ U.S. HISTORY 1492&ndash;RECONSTRUCTION</div>
+  <div class="breadcrumb">Quarter 4 &middot; The American Civil War</div>
+</div>
+<div class="meta-strip">
+  <div class="meta-cell"><div class="meta-label">Topic</div><div class="meta-value" style="font-style:italic;">Grant and Sherman Break the Confederacy</div></div>
+  <div class="meta-cell"><div class="meta-label">Module Theme</div><div class="meta-value" style="font-size:16px;">The American Civil War</div></div>
+</div>
+
+<div class="page-wrap">
+
+<!-- ═══════════════════════════════════════════════════════════════════════
+     OPTIMA READ-ALOUD PLAYER — drop-in snippet for GitHub-hosted lesson pages
+     ═══════════════════════════════════════════════════════════════════════
+
+     WHAT IT DOES
+       Adds a "Listen" player that reads the page aloud using the browser's
+       built-in Web Speech API (no accounts, no API keys, works offline once
+       the page is loaded). The paragraph currently being read is highlighted
+       in pale gold and scrolled into view. Works inside a Canvas iframe.
+
+     WHERE TO PASTE
+       Into any GitHub-hosted Optima lesson page (the full-HTML-document kind,
+       NOT Canvas RCE pages — the RCE strips <script>). Paste this whole block
+       just inside the body wrapper, right BEFORE the first content card.
+
+     OPTIONS
+       • Add  data-ra-skip  to any element the reader should NOT read
+         (e.g. the local preview banner, decorative text, answer keys).
+       • Add  data-readaloud-root  to one container to limit reading to it.
+         Default scope: the .canvas-frame wrapper, else <body>.
+
+     NOTES
+       • The player never reads itself, <button> labels, or hidden elements
+         (so unrevealed widget feedback stays unread until shown).
+       • If the browser has no speech voices, the player disables itself
+         with a friendly message instead of breaking the page.
+-->
+<div id="optima-read-aloud">
+<style>
+    #optima-read-aloud { background: linear-gradient(135deg, #E8F6FB 0%, #F4F9FC 100%); border: 1px solid #C5DCE5; border-left: 5px solid #2196D0; border-radius: 8px; padding: 14px 18px; margin: 0 0 20px 0; }
+    #optima-read-aloud .ora-kicker { font-size: 11px; color: #1B6A94; letter-spacing: 0.4px; margin-bottom: 10px; }
+    #optima-read-aloud .ora-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+    #optima-read-aloud .ora-controls button { border-radius: 8px; padding: 8px 16px; font-size: 14px; cursor: pointer; font-family: inherit; transition: all 0.15s; }
+    #ora-play { background: #0E1C42; color: #FFFFFF; border: 1.5px solid #0E1C42; }
+    #ora-play:hover:enabled { background: #1B2D5E; }
+    #ora-play:disabled { background: #D0D9E8; border-color: #D0D9E8; color: #6b7a99; cursor: default; }
+    #ora-stop { background: #FFFFFF; color: #0E1C42; border: 1.5px solid #D0D9E8; }
+    #ora-stop:hover:enabled { background: #F4F6FA; border-color: #55C8E8; }
+    #ora-stop:disabled { color: #999; border-color: #E4E9F2; cursor: default; }
+    #optima-read-aloud .ora-speed { font-size: 12px; color: #6b7a99; display: flex; align-items: center; gap: 6px; }
+    #ora-rate { font-family: inherit; font-size: 13px; color: #0E1C42; border: 1.5px solid #D0D9E8; border-radius: 6px; padding: 5px 8px; background: #FFFFFF; }
+    #ora-status { font-size: 12px; color: #666; }
+    .ora-highlight { background: #FDF3E3 !important; box-shadow: inset 4px 0 0 #C7922C; border-radius: 4px; transition: background 0.2s; }
+</style>
+    <div class="ora-kicker">&#128266; READ ALOUD: LISTEN TO THIS PAGE</div>
+    <div class="ora-controls">
+        <button id="ora-play" type="button" aria-label="Listen to this page">&#9654;&#65039; Listen</button>
+        <button id="ora-stop" type="button" aria-label="Stop reading" disabled>&#9632; Stop</button>
+        <label class="ora-speed">Speed
+            <select id="ora-rate" aria-label="Reading speed">
+                <option value="0.8">Slower</option>
+                <option value="1" selected>Normal</option>
+                <option value="1.25">Faster</option>
+            </select>
+        </label>
+        <span id="ora-status" role="status" aria-live="polite"></span>
+    </div>
+<script>
+(function () {
+    "use strict";
+    var playBtn  = document.getElementById("ora-play");
+    var stopBtn  = document.getElementById("ora-stop");
+    var rateSel  = document.getElementById("ora-rate");
+    var statusEl = document.getElementById("ora-status");
+
+    if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) {
+        playBtn.disabled = true;
+        rateSel.disabled = true;
+        statusEl.textContent = "Read-aloud is not supported in this browser.";
+        return;
+    }
+
+    var LABEL_PLAY   = "▶️ Listen";
+    var LABEL_PAUSE  = "⏸️ Pause";
+    var LABEL_RESUME = "▶️ Resume";
+    var BLOCK_SEL = "p, li, h1, h2, h3, h4, h5, h6, blockquote, td, th, dt, dd, figcaption, div";
+    var SKIP_SEL  = "#optima-read-aloud, [data-ra-skip], button, script, style, select, noscript, iframe";
+
+    var queue = [];        // [{ el, text }] — one entry per sentence
+    var idx = 0;
+    var playing = false, paused = false, stopping = false;
+    var currentBlock = null;
+    var currentUtterance = null;  // held to dodge a Chrome garbage-collection bug
+
+    var voices = [];
+    function loadVoices() { voices = window.speechSynthesis.getVoices(); }
+    loadVoices();
+    if ("onvoiceschanged" in window.speechSynthesis) {
+        window.speechSynthesis.onvoiceschanged = loadVoices;
+    }
+    function pickVoice() {
+        if (!voices.length) loadVoices();
+        var en = voices.filter(function (v) { return /^en/i.test(v.lang); });
+        return en.filter(function (v) { return /natural/i.test(v.name); })[0]
+            || en.filter(function (v) { return /google us english/i.test(v.name); })[0]
+            || en.filter(function (v) { return v.default; })[0]
+            || en[0] || null;
+    }
+
+    function isVisible(el) {
+        return !!(el.offsetWidth || el.offsetHeight || el.getClientRects().length);
+    }
+
+    // Walk text nodes, attach each to its nearest block ancestor, split into sentences.
+    function collectQueue() {
+        var root = document.querySelector("[data-readaloud-root]")
+                || document.querySelector(".canvas-frame")
+                || document.body;
+        var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null, false);
+        var items = [];   // [{ el, text }] — one entry per block, in reading order
+        var node;
+        while ((node = walker.nextNode())) {
+            if (!/\S/.test(node.textContent)) continue;
+            var el = node.parentElement;
+            if (!el || el.closest(SKIP_SEL)) continue;
+            if (!isVisible(el)) continue;
+            var block = el.closest(BLOCK_SEL) || root;
+            var last = items[items.length - 1];
+            if (last && last.el === block) last.text += " " + node.textContent;
+            else items.push({ el: block, text: node.textContent });
+        }
+        var q = [];
+        items.forEach(function (item) {
+            var clean = item.text.replace(/\s+/g, " ").trim();
+            if (!clean) return;
+            var sentences = clean.match(/[^.!?]+[.!?]+[”"')\]]*\s*|[^.!?]+$/g) || [clean];
+            sentences.forEach(function (s) {
+                s = s.trim();
+                if (s) q.push({ el: item.el, text: s });
+            });
+        });
+        return q;
+    }
+
+    function highlight(el) {
+        if (el === currentBlock) return;
+        clearHighlight();
+        currentBlock = el;
+        if (el && el !== document.body) {
+            el.classList.add("ora-highlight");
+            try { el.scrollIntoView({ behavior: "smooth", block: "nearest" }); } catch (e) {}
+        }
+    }
+    function clearHighlight() {
+        if (currentBlock) currentBlock.classList.remove("ora-highlight");
+        currentBlock = null;
+    }
+
+    function speakNext() {
+        if (idx >= queue.length) { finish("Finished reading this page."); return; }
+        var item = queue[idx];
+        highlight(item.el);
+        var u = new SpeechSynthesisUtterance(item.text);
+        u.rate = parseFloat(rateSel.value) || 1;
+        var v = pickVoice();
+        if (v) u.voice = v;
+        u.onend = function () {
+            if (stopping) return;
+            idx++;
+            speakNext();
+        };
+        u.onerror = function (e) {
+            if (stopping || e.error === "canceled" || e.error === "interrupted") return;
+            idx++;
+            speakNext();
+        };
+        currentUtterance = u;
+        window.speechSynthesis.speak(u);
+        statusEl.textContent = "Reading… " + (idx + 1) + " / " + queue.length;
+    }
+
+    function finish(message) {
+        playing = false;
+        paused = false;
+        clearHighlight();
+        playBtn.textContent = LABEL_PLAY;
+        stopBtn.disabled = true;
+        statusEl.textContent = message || "";
+        currentUtterance = null;
+    }
+
+    playBtn.addEventListener("click", function () {
+        if (playing && !paused) {
+            window.speechSynthesis.pause();
+            paused = true;
+            playBtn.textContent = LABEL_RESUME;
+            statusEl.textContent = "Paused";
+            return;
+        }
+        if (playing && paused) {
+            window.speechSynthesis.resume();
+            paused = false;
+            playBtn.textContent = LABEL_PAUSE;
+            statusEl.textContent = "Reading… " + (idx + 1) + " / " + queue.length;
+            return;
+        }
+        queue = collectQueue();
+        if (!queue.length) { statusEl.textContent = "Nothing to read on this page."; return; }
+        idx = 0;
+        stopping = false;
+        playing = true;
+        paused = false;
+        window.speechSynthesis.cancel();
+        playBtn.textContent = LABEL_PAUSE;
+        stopBtn.disabled = false;
+        speakNext();
+    });
+
+    stopBtn.addEventListener("click", function () {
+        stopping = true;
+        window.speechSynthesis.cancel();
+        finish("");
+    });
+
+    // Changing speed mid-read restarts the current sentence at the new rate.
+    rateSel.addEventListener("change", function () {
+        if (!playing || paused) return;
+        stopping = true;
+        window.speechSynthesis.cancel();
+        setTimeout(function () { stopping = false; speakNext(); }, 60);
+    });
+
+    window.addEventListener("pagehide", function () { window.speechSynthesis.cancel(); });
+})();
+</script>
+</div>
+<!-- ═══ END OPTIMA READ-ALOUD PLAYER ═══ -->
+
+
+<div class="title-strip" style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 14px 20px; margin-bottom: 16px;"><div class="kicker" style="font-size: 10px; color: #0e1c42; margin-bottom: 5px; ">Lesson</div><div class="title" style="font-size: 20px; color: #0e1c42; margin-bottom: 3px;">Grant and Sherman Break the Confederacy</div><div class="subtitle" style="font-size: 13px; color: #666;">Lesson &middot; ~840 words &middot; ~8 min</div></div>
+<div class="callout-glossary" style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-top: 3px solid #55C8E8; border-radius: 6px; padding: 12px 18px; margin: 12px 0;">
+<div class="callout-kicker-glossary" style="font-size: 10px; color: #0E1C42; margin-bottom: 6px; ">&#128214; Glossary of Subject Vocabulary</div>
+<div class="card-body" style="font-size: 15px; color: #1a2340; line-height: 1.55;">Some words below may be new to you. Look them over before you read. Each one is underlined in the lesson, so you can hover over it for a reminder.
+<p><b>forage</b> <i>(FOR-ij)</i>: To search the countryside for food and supplies. <button class="term-audio" onclick="oaPronounce('forage')" aria-label="Hear pronunciation">&#128266;</button></p>
+<p><b>total war</b> <i>(TOH-tul wor)</i>: War aimed at an enemy&rsquo;s farms, railroads, and factories as well as its armies. <button class="term-audio" onclick="oaPronounce('total war')" aria-label="Hear pronunciation">&#128266;</button></p>
+</div>
+</div>
+<div class="card card-gold-top" style="background: #fff; border: 1px solid #D0D9E8; border-radius: 8px; padding: 16px 20px; margin-bottom: 16px; border-top: 3px solid #C7922C;">
+<div class="card-kicker" style="font-size: 10px; color: #c7922c; margin-bottom: 10px;  ">&#128214; Today's Focus</div>
+<div style="font-size:17px; color:#0e1c42; font-style:italic; margin-bottom:8px;">How did the Union finally break the Confederacy&rsquo;s will to fight?</div>
+<p style="font-size: 15px; color: #1a2340; line-height: 1.58; margin: 0 0 9px 0;">By 1864 the Union held the Mississippi, the seas, and much of the border. But Lee&rsquo;s army was still undefeated, and the Confederacy still had its heartland. Lincoln needed a general who would use all of the North&rsquo;s strength, and he needed to win an election in the middle of the war. This lesson follows both stories.</p>
+</div>
+<div class="card card-gold-top" style="background: #fff; border: 1px solid #D0D9E8; border-radius: 8px; padding: 16px 20px; margin-bottom: 16px; border-top: 3px solid #C7922C;">
+<h3 style="font-size: 18px; color: #0e1c42; margin: 20px 0 8px 0;">A New General-in-Chief</h3>
+<p style="font-size: 15px; color: #1a2340; line-height: 1.58; margin: 0 0 9px 0;">In March 1864 Lincoln named Ulysses S. Grant lieutenant general and put him in charge of all Union armies. He was the first full lieutenant general since George Washington. Grant made a plan that was simple and demanding. Every Union army would attack at the same time, so the Confederates could not shift troops from one place to another. Grant would travel with the Army of the Potomac and go after Lee. William T. Sherman would take an army into Georgia.</p>
+<h3 style="font-size: 18px; color: #0e1c42; margin: 20px 0 8px 0;">The Overland Campaign</h3>
+<p style="font-size: 15px; color: #1a2340; line-height: 1.58; margin: 0 0 9px 0;">In May Grant crossed the Rapidan River and fought Lee in a tangled forest called the Wilderness. After two days of terrible fighting, neither side had won. Earlier Union generals would have gone back to rest. Grant did the opposite. He turned his army south, around Lee&rsquo;s flank, and kept going. Soldiers cheered when they saw which way they were headed.</p>
+<p style="font-size: 15px; color: #1a2340; line-height: 1.58; margin: 0 0 9px 0;">For six weeks the two armies fought almost every day, at Spotsylvania and Cold Harbor and many other places. At Cold Harbor on June 3, Grant ordered an attack on strong trenches. In less than an hour thousands of Union soldiers fell. Grant later said he regretted it. In six weeks the Union lost about 55,000 men, and Lee lost about 33,000. But the Union could replace its men and the Confederacy could not.</p>
+<p style="font-size: 15px; color: #1a2340; line-height: 1.58; margin: 0 0 9px 0;">Grant then moved his army across the James River and attacked the railroad town of Petersburg, south of Richmond. When the first attack failed, the armies dug in. The siege of Petersburg lasted nine months. Lee was pinned down, and his supply lines were being cut one by one.</p>
+<h3 style="font-size: 18px; color: #0e1c42; margin: 20px 0 8px 0;">Atlanta</h3>
+<p style="font-size: 15px; color: #1a2340; line-height: 1.58; margin: 0 0 9px 0;">In Georgia, Sherman pushed toward Atlanta, a key railroad and factory center. Confederate General Joseph Johnston fell back from position to position. President Davis grew impatient and replaced him with a bolder general, John Bell Hood. Hood attacked and lost many men. On September 2, 1864, Sherman telegraphed Lincoln that Atlanta was won.</p>
+<div class="optima-widget ow-flipset"><div class="widget-kicker">&#9889; TAP TO REVEAL · THREE THINGS FROM THE SPRING AND SUMMER OF 1864</div><div class="widget-question">In your notebook, answer each question from what you read. Then tap a card to compare.</div><div class="ow-flip" tabindex="0"><div class="ow-flip-front">What was a lieutenant general?</div><div class="ow-flip-back" data-ra-skip>A rank Lincoln gave Grant in March 1864, putting him in charge of all Union armies.</div></div><div class="ow-flip" tabindex="0"><div class="ow-flip-front">What was the Overland Campaign?</div><div class="ow-flip-back" data-ra-skip>Six weeks of almost daily fighting between Grant and Lee at the Wilderness, Spotsylvania, Cold Harbor, and other places.</div></div><div class="ow-flip" tabindex="0"><div class="ow-flip-front">What happened at Petersburg?</div><div class="ow-flip-back" data-ra-skip>When the first attack failed, the armies dug in. The siege lasted nine months.</div></div><button type="button" class="widget-reset">Reset</button></div>
+<h3 style="font-size: 18px; color: #0e1c42; margin: 20px 0 8px 0;">An Election in Wartime</h3>
+<p style="font-size: 15px; color: #1a2340; line-height: 1.58; margin: 0 0 9px 0;">Atlanta came at the right time for Lincoln. That summer, with Grant&rsquo;s heavy losses and no end in sight, Northern voters grew tired. Lincoln himself believed he would probably lose. His opponent was General George McClellan, running as a Democrat. The party platform called the war a failure and demanded peace, but McClellan said he would not accept peace without the Union.</p>
+<p style="font-size: 15px; color: #1a2340; line-height: 1.58; margin: 0 0 9px 0;">The fall of Atlanta changed the mood. On November 8, Lincoln won all but three states and received 212 electoral votes to McClellan&rsquo;s 21. Most soldiers voted for him. The country held a national election in the middle of a civil war, which few nations have done. It showed a republic with a strong civic habit of resolving disputes by vote, even in a crisis. It also meant that voters had approved of both the Union and emancipation.</p>
+<div class="optima-widget ow-select"><div class="widget-kicker">&#9889; TRY IT · GRANT, HOOD, AND THE ELECTION</div><div class="widget-question">Choose the answer that fits each question.</div><div class="widget-row" data-correct="2" data-fb="Right. Davis was impatient with Johnston falling back. Hood attacked and lost many men." data-hint="Reread the Atlanta section."><div class="widget-row-prompt">1. Why did Davis replace General Johnston with John Bell Hood?</div><div class="widget-options"><button type="button" data-choice="0">Johnston was captured</button><button type="button" data-choice="1">Johnston asked to leave</button><button type="button" data-choice="2">Davis wanted a bolder general</button><button type="button" data-choice="3">Hood was Sherman&#x27;s friend</button></div></div><div class="widget-row" data-correct="0" data-fb="Right. McClellan ran as a Democrat, but said he would not accept peace without the Union." data-hint="Reread the section on the election."><div class="widget-row-prompt">2. Who was Lincoln&#x27;s opponent in the election of 1864?</div><div class="widget-options"><button type="button" data-choice="0">George McClellan</button><button type="button" data-choice="1">Ulysses S. Grant</button><button type="button" data-choice="2">Joseph Johnston</button><button type="button" data-choice="3">Philip Sheridan</button></div></div><div class="widget-row" data-correct="1" data-fb="Right. Soldiers cheered when they saw which way they were headed." data-hint="Reread the Overland Campaign. Earlier generals would have gone back."><div class="widget-row-prompt">3. After two days of fighting in the Wilderness with no winner, what did Grant do?</div><div class="widget-options"><button type="button" data-choice="0">Went back to rest</button><button type="button" data-choice="1">Turned south around Lee&#x27;s flank and kept going</button><button type="button" data-choice="2">Asked Lee for peace</button><button type="button" data-choice="3">Marched to Atlanta</button></div></div><button type="button" class="widget-reset">Reset</button></div>
+<h3 style="font-size: 18px; color: #0e1c42; margin: 20px 0 8px 0;">The March to the Sea</h3>
+<p style="font-size: 15px; color: #1a2340; line-height: 1.58; margin: 0 0 9px 0;">In November Sherman left Atlanta with about 60,000 men and cut himself off from his supply lines. Over the next five weeks he marched about 285 miles to the coast at Savannah. His soldiers destroyed railroads by heating the rails and twisting them around trees. They would <span class="term" style="border-bottom: 1.5px dotted #C7922C; color: #0E1C42;" title="To search the countryside for food and supplies."><b>forage</b></span>, and they took crops, livestock, and sometimes burned barns, mills, and cotton gins. They did not usually kill civilians, but the path of damage was about sixty miles wide. In the fall General Philip Sheridan had also burned barns and mills in the Shenandoah Valley, the Confederacy&rsquo;s breadbasket. Sherman offered Savannah to Lincoln as a Christmas gift. Thousands of freed people followed his army.</p>
+<div class="optima-widget ow-reflect"><div class="widget-kicker">&#9889; QUICK CHECK-IN</div><div class="widget-question">An army has destroyed railroads and taken crops, but has not usually killed civilians. How far do you think an army should go to end a war sooner? (No wrong answer. Just check in with yourself.)</div><div class="widget-options"><button type="button" data-response="That was how earlier generals saw war. Sherman believed armies alone could not beat the Confederacy, because its farms and railroads fed and supplied its armies.">Only fight other soldiers</button><button type="button" data-response="That was Sherman&#x27;s reasoning. Railroads and farms kept the Confederate armies going.">Also cut off what supplies the army</button><button type="button" data-response="Sherman wrote that &quot;war is cruelty, and you cannot refine it.&quot; But he did not usually kill civilians. He aimed at property and the will to fight.">Whatever it takes</button><button type="button" data-response="Read on to see what Sherman believed and what others said.">I need more information</button></div><div class="widget-feedback" data-ra-skip></div><button type="button" class="widget-reset">Reset</button></div>
+<h3 style="font-size: 18px; color: #0e1c42; margin: 20px 0 8px 0;">Sherman&rsquo;s Idea of War</h3>
+<p style="font-size: 15px; color: #1a2340; line-height: 1.58; margin: 0 0 9px 0;">Sherman believed in <span class="term" style="border-bottom: 1.5px dotted #C7922C; color: #0E1C42;" title="War aimed at an enemy&rsquo;s farms, railroads, and factories as well as its armies."><b>total war</b></span>. He thought that the Confederacy could not be beaten by armies alone, because its farms and railroads fed and supplied those armies, and because the people at home kept up the will to fight. He wrote that &ldquo;war is cruelty, and you cannot refine it.&rdquo; He wanted Southerners to see that rebellion would cost them everything, so they would end it sooner. Sherman argued that a harsh war was a shorter war, and in the long run a more merciful one.</p>
+<p style="font-size: 15px; color: #1a2340; line-height: 1.58; margin: 0 0 9px 0;">Others disagreed. Some then and since have said that destroying private property and hurting civilians went too far. You will decide for yourself in the discussion for these lessons. Think about what Sherman did, what he did not do, and what he believed he was trying to accomplish.</p>
+<div class="optima-widget ow-sort" data-config="{&quot;bins&quot;: [&quot;Grant&quot;, &quot;Sherman&quot;], &quot;items&quot;: [{&quot;t&quot;: &quot;Took an army into Georgia&quot;, &quot;b&quot;: 1, &quot;fb&quot;: &quot;Right. Sherman pushed toward Atlanta.&quot;, &quot;hint&quot;: &quot;Which general went after Atlanta?&quot;}, {&quot;t&quot;: &quot;Traveled with the Army of the Potomac and went after Lee&quot;, &quot;b&quot;: 0, &quot;fb&quot;: &quot;Right. Grant went with the army.&quot;, &quot;hint&quot;: &quot;Which general went after Lee?&quot;}, {&quot;t&quot;: &quot;Cut himself off from his supply lines and marched toward the coast&quot;, &quot;b&quot;: 1, &quot;fb&quot;: &quot;Right. He reached Savannah after about 285 miles.&quot;, &quot;hint&quot;: &quot;Which general marched to the sea?&quot;}, {&quot;t&quot;: &quot;Ordered an attack at Cold Harbor that he later regretted&quot;, &quot;b&quot;: 0, &quot;fb&quot;: &quot;Right. In less than an hour thousands of Union soldiers fell.&quot;, &quot;hint&quot;: &quot;Which general ordered it?&quot;}, {&quot;t&quot;: &quot;Soldiers heated rails and twisted them around trees&quot;, &quot;b&quot;: 1, &quot;fb&quot;: &quot;Right. They destroyed railroads as they went.&quot;, &quot;hint&quot;: &quot;Whose army marched through Georgia?&quot;}, {&quot;t&quot;: &quot;Moved the army across the James River to attack Petersburg&quot;, &quot;b&quot;: 0, &quot;fb&quot;: &quot;Right. The siege lasted nine months.&quot;, &quot;hint&quot;: &quot;Which general was fighting Lee?&quot;}]}"><div class="widget-kicker">&#9889; SORT IT · WHO HAD THE PLAN</div><div class="widget-question">Sort each action under the general who carried it out.</div><div class="ow-body"></div><button type="button" class="widget-reset">Reset</button></div>
+<h3 style="font-size: 18px; color: #0e1c42; margin: 20px 0 8px 0;">What Remained</h3>
+<p style="font-size: 15px; color: #1a2340; line-height: 1.58; margin: 0 0 9px 0;">By early 1865 the Confederacy&rsquo;s economy and armies were broken. But Lee&rsquo;s army was still in the field. Lincoln&rsquo;s reelection had shown that the North would stay with the war until the end. What the peace would look like, and what would happen to four million freed people, was still unknown.</p>
+</div>
+<div class="optima-widget ow-order" data-config="{&quot;items&quot;: [&quot;Grant becomes lieutenant general in charge of all Union armies&quot;, &quot;Grant and Lee fight in the Wilderness&quot;, &quot;The attack at Cold Harbor&quot;, &quot;Sherman telegraphs that Atlanta is won&quot;, &quot;Lincoln wins the election&quot;, &quot;Sherman reaches Savannah&quot;], &quot;hint&quot;: &quot;That came later. Which event had to happen first?&quot;, &quot;done&quot;: &quot;Right. The year built from Grant&#x27;s plan to Atlanta, the election, and the March to the Sea.&quot;}"><div class="widget-kicker">&#9889; PUT IT IN ORDER · THE YEAR 1864</div><div class="widget-question">Tap the events in the order they happened, earliest first.</div><div class="ow-body"></div><button type="button" class="widget-reset">Reset</button></div>
+<div class="card card-navy-top" style="background: #fff; border: 1px solid #D0D9E8; border-radius: 8px; padding: 16px 20px; margin-bottom: 16px; border-top: 3px solid #0E1C42;">
+<div class="card-kicker" style="font-size: 10px; color: #c7922c; margin-bottom: 10px;  ">&#10145;&#65039; What You'll Do Next</div>
+<div class="num-row" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 10px;"><div class="num-circle navy" style="min-width: 24px; height: 24px; border-radius: 50%; color: #fff; font-size: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; background: #0E1C42;">1</div><div class="num-text" style="font-size: 15px; color: #1a2340; line-height: 1.55;"><b>Read the first primary source for these lessons (Lincoln, Second Inaugural Address, 1865) and answer the Critical Questions.</b></div></div>
+<div class="num-row" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 10px;"><div class="num-circle navy" style="min-width: 24px; height: 24px; border-radius: 50%; color: #fff; font-size: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; background: #0E1C42;">2</div><div class="num-text" style="font-size: 15px; color: #1a2340; line-height: 1.55;"><b>Continue to the next lesson, where Lee surrenders and Lincoln is assassinated.</b></div></div>
+</div>
+
+</div>
+
+<div class="oa-footer">
+  <div class="line1"><span class="brand">Optima Academy Online</span> &middot; MJ U.S. History 1492&ndash;Reconstruction &middot; GitHub Lesson Page</div>
+  <div class="line2">The American Civil War</div>
+  <div class="line3">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+<script>
+function oaPronounce(text) {
+  if (!('speechSynthesis' in window)) return;
+  var u = new SpeechSynthesisUtterance(text);
+  u.rate = 0.85;
+  window.speechSynthesis.speak(u);
+}
+</script>
+
+<script>
+(function () {
+  function shuffle(a) {
+    var b = a.slice(), i, j, t;
+    for (i = b.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = b[i]; b[i] = b[j]; b[j] = t; }
+    return b;
+  }
+  function mk(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text !== undefined) e.textContent = text;
+    return e;
+  }
+  function fbRow(row, ok, text) {
+    var rf = row.querySelector('.row-feedback');
+    if (!rf) { rf = mk('div'); rf.setAttribute('data-ra-skip', ''); row.appendChild(rf); }
+    rf.className = 'row-feedback ' + (ok ? 'correct' : 'incorrect');
+    rf.textContent = text;
+  }
+
+  /* ---------- Sorter ---------- */
+  function initSort(w) {
+    var cfg = JSON.parse(w.getAttribute('data-config'));
+    var body = w.querySelector('.ow-body');
+    body.innerHTML = '';
+    var placed = 0;
+    cfg.items.forEach(function (it, n) {
+      var row = mk('div', 'widget-row');
+      row.setAttribute('data-correct', it.b);
+      row.setAttribute('data-n', n);
+      row.appendChild(mk('div', 'widget-row-prompt', (n + 1) + '. ' + it.t));
+      var opts = mk('div', 'widget-options');
+      cfg.bins.forEach(function (b, k) {
+        var btn = mk('button', '', b);
+        btn.setAttribute('type', 'button');
+        btn.setAttribute('data-choice', k);
+        opts.appendChild(btn);
+      });
+      row.appendChild(opts);
+      body.appendChild(row);
+    });
+    var tally = mk('div', 'sort-tally', '0 of ' + cfg.items.length + ' sorted');
+    tally.setAttribute('data-ra-skip', '');
+    body.appendChild(tally);
+    var bins = mk('div', 'sort-bins');
+    bins.setAttribute('data-ra-skip', '');
+    cfg.bins.forEach(function (b) {
+      var d = mk('div', 'sort-bin');
+      d.appendChild(mk('h4', '', b));
+      bins.appendChild(d);
+    });
+    body.appendChild(bins);
+  }
+
+  /* ---------- Order ---------- */
+  function initOrder(w) {
+    var cfg = JSON.parse(w.getAttribute('data-config'));
+    var body = w.querySelector('.ow-body');
+    body.innerHTML = '';
+    var list = mk('ol', 'order-list');
+    list.setAttribute('data-ra-skip', '');
+    var pool = mk('div', 'order-pool');
+    var idx = cfg.items.map(function (_, i) { return i; });
+    var sh = shuffle(idx), tries = 0;
+    while (tries < 20 && sh.every(function (v, i) { return v === i; })) { sh = shuffle(idx); tries++; }
+    sh.forEach(function (i) {
+      var b = mk('button', '', cfg.items[i]);
+      b.setAttribute('type', 'button');
+      b.setAttribute('data-i', i);
+      pool.appendChild(b);
+    });
+    w.setAttribute('data-next', 0);
+    var fb = mk('div', 'widget-feedback');
+    fb.setAttribute('data-ra-skip', '');
+    body.appendChild(list);
+    body.appendChild(pool);
+    body.appendChild(fb);
+  }
+
+  function initAll() {
+    document.querySelectorAll('.optima-widget.ow-sort').forEach(initSort);
+    document.querySelectorAll('.optima-widget.ow-order').forEach(initOrder);
+  }
+  initAll();
+
+  document.addEventListener('click', function (e) {
+    /* Reset (any engine) */
+    var reset = e.target.closest('.widget-reset');
+    if (reset) {
+      var w = reset.closest('.optima-widget');
+      if (w.classList.contains('ow-sort')) { initSort(w); return; }
+      if (w.classList.contains('ow-order')) { initOrder(w); return; }
+      w.querySelectorAll('.widget-options button').forEach(function (b) { b.classList.remove('selected', 'correct', 'incorrect'); });
+      w.querySelectorAll('.widget-feedback').forEach(function (f) { f.classList.remove('show'); f.textContent = ''; });
+      w.querySelectorAll('.row-feedback').forEach(function (f) { f.remove(); });
+      w.querySelectorAll('.ow-flip.flipped').forEach(function (c) { c.classList.remove('flipped'); });
+      w.querySelectorAll('details').forEach(function (d) { d.open = false; });
+      return;
+    }
+    /* Reflective check-in: no right answer */
+    var rBtn = e.target.closest('.ow-reflect .widget-options button');
+    if (rBtn) {
+      var rw = rBtn.closest('.optima-widget');
+      rw.querySelectorAll('.widget-options button').forEach(function (b) { b.classList.remove('selected'); });
+      rBtn.classList.add('selected');
+      var fb = rw.querySelector('.widget-feedback');
+      fb.textContent = rBtn.getAttribute('data-response') || '';
+      fb.classList.add('show');
+      return;
+    }
+    /* Single-select rows and scale */
+    var sBtn = e.target.closest('.ow-select .widget-row .widget-options button, .ow-scale .widget-row .widget-options button');
+    if (sBtn) {
+      var row = sBtn.closest('.widget-row');
+      row.querySelectorAll('.widget-options button').forEach(function (b) { b.classList.remove('selected', 'correct', 'incorrect'); });
+      var right = sBtn.getAttribute('data-choice') === row.getAttribute('data-correct');
+      sBtn.classList.add(right ? 'correct' : 'incorrect');
+      fbRow(row, right, right ? (row.getAttribute('data-fb') || 'Right.') : (sBtn.getAttribute('data-fb') || row.getAttribute('data-hint') || 'Not quite. Try again.'));
+      return;
+    }
+    /* Sorter */
+    var oBtn = e.target.closest('.ow-sort .widget-row .widget-options button');
+    if (oBtn) {
+      var sw = oBtn.closest('.optima-widget');
+      var cfg = JSON.parse(sw.getAttribute('data-config'));
+      var r = oBtn.closest('.widget-row');
+      var it = cfg.items[parseInt(r.getAttribute('data-n'), 10)];
+      if (r.classList.contains('done')) return;
+      r.querySelectorAll('.widget-options button').forEach(function (b) { b.classList.remove('correct', 'incorrect'); });
+      var ok = parseInt(oBtn.getAttribute('data-choice'), 10) === it.b;
+      oBtn.classList.add(ok ? 'correct' : 'incorrect');
+      fbRow(r, ok, ok ? it.fb : it.hint);
+      if (ok) {
+        r.classList.add('done');
+        var bin = sw.querySelectorAll('.sort-bin')[it.b];
+        bin.appendChild(mk('div', 'sort-chip', it.t));
+        var n = sw.querySelectorAll('.widget-row.done').length;
+        sw.querySelector('.sort-tally').textContent = n + ' of ' + cfg.items.length + ' sorted';
+      }
+      return;
+    }
+    /* Order */
+    var pBtn = e.target.closest('.ow-order .order-pool button');
+    if (pBtn) {
+      var ow = pBtn.closest('.optima-widget');
+      var oc = JSON.parse(ow.getAttribute('data-config'));
+      var next = parseInt(ow.getAttribute('data-next'), 10);
+      var fb2 = ow.querySelector('.widget-feedback');
+      var i = parseInt(pBtn.getAttribute('data-i'), 10);
+      if (i === next) {
+        var li = mk('li');
+        var nb = mk('b', '', (next + 1) + '.');
+        li.appendChild(nb);
+        li.appendChild(document.createTextNode(oc.items[i]));
+        ow.querySelector('.order-list').appendChild(li);
+        pBtn.remove();
+        next++;
+        ow.setAttribute('data-next', next);
+        if (next === oc.items.length) {
+          fb2.textContent = oc.done;
+          fb2.classList.add('show');
+        } else {
+          fb2.classList.remove('show');
+          fb2.textContent = '';
+        }
+      } else {
+        pBtn.classList.add('nope');
+        setTimeout(function () { pBtn.classList.remove('nope'); }, 700);
+        fb2.textContent = oc.hint;
+        fb2.classList.add('show');
+      }
+      return;
+    }
+    /* Flip card */
+    var flip = e.target.closest('.ow-flip');
+    if (flip) { flip.classList.toggle('flipped'); return; }
+  });
+})();
+</script>
+</body>
+</html>
